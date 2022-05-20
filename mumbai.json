@@ -1,0 +1,46 @@
+{
+  "0x2fc743f5419637b93ddac159715b902186300041": {
+    "allowedFunctions": ["0xe99a3f8"],
+    "types": {
+      "EIP712Domain": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "verifyingContract",
+          "type": "address"
+        },
+        {
+          "name": "salt",
+          "type": "bytes32"
+        }
+      ],
+      "MetaTransaction": [
+        {
+          "name": "nonce",
+          "type": "uint256"
+        },
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "functionSignature",
+          "type": "bytes"
+        }
+      ]
+    },
+    "domain": {
+      "name": "ExchangeV2",
+      "version": "1",
+      "verifyingContract": "0x2fc743f5419637b93ddac159715b902186300041",
+      "salt": "0x0000000000000000000000000000000000000000000000000000000000013881"
+    },
+    "primaryType": "MetaTransaction"
+  }
+}
