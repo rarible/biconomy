@@ -1,6 +1,6 @@
 {
   "0x12b3897a36fdb436dde2788c06eff0ffd997066e": {
-    "allowedFunctions": ["0xe99a3f8"],
+    "allowedFunctions": ["0xe99a3f80"],
     "types": {
       "EIP712Domain": [
         {
